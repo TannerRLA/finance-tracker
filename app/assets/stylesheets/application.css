@@ -11,6 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_devise-bootstrap-views
+ *= require font-awesome
  *= require_bootstrap
  *= require_tree 
  *= require_self

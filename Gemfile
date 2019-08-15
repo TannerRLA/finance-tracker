@@ -11,6 +11,7 @@ gem 'jquery-rails'
 gem 'devise-bootstrap-views'
 gem 'stock_quote'
 gem 'bootstrap'
+gem 'font-awesome-rails'
 # Use sqlite3 as the database for Active Record
 
 # Use Puma as the app server
