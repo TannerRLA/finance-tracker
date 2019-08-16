@@ -15,7 +15,6 @@
  *= require_tree 
  *= require_self
  */
- @import "bootstrap"
 
  .results-block {
  	display: inline-block;
@@ -62,7 +61,3 @@
  	letter-spacing: -1px;
  	font-weight: bold;
  }
-
- .center {
- 	text-align: center
-}
