@@ -4,7 +4,7 @@
 	</div>
 <% end %>
 <% if @stock %>
-	<% if @users.size > 0 %>
+	<%# if @user.size > 0 %>
 		<div class="well results-block" style="">
 			<strong>Symbol: </strong><%= @stock.ticker %>
 			<strong>Name: </strong><%= @stock.name %>
@@ -22,7 +22,7 @@
 					<% end %>
 				</span>
 
-			<% end %>
+			<%# end %>
 		</div>
 	<% end %>
 <% end %>
