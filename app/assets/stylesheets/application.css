@@ -12,10 +12,10 @@
  *
  *= require_devise-bootstrap-views
  *= require font-awesome
- *= require_bootstrap
  *= require_tree 
  *= require_self
  */
+ @import "bootstrap"
 
  .results-block {
  	display: inline-block;
@@ -47,3 +47,22 @@
  		background-color: darken(#d9534f, 20%) !important;
  	}
  }
+
+ .jumbotron {
+ 	background-image: url('https://www.varchev.com/wp-content/uploads/2019/01/Stock-Charts-7.jpg');
+ 	background-size: cover;
+ 	height: 550px;
+ 	align-content: center;
+ }
+
+ .jumbotron h1 {
+ 	color: #fff;
+ 	text-align: center;
+ 	margin-bottom: 30px;
+ 	letter-spacing: -1px;
+ 	font-weight: bold;
+ }
+
+ .center {
+ 	text-align: center
+}
